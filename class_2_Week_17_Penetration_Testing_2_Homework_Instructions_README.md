@@ -65,7 +65,7 @@ You've been provided full access to the network and are getting ping responses f
  
    - Run the SearchSploit commands to show available Icecast exploits.
   
-     > Answer: 
+     > Answer: searchsploit icecast
 
 3. Now that we know which exploits are available to us, let's start Metasploit:
  
