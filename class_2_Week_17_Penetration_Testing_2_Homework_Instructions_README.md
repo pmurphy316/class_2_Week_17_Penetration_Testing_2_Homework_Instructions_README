@@ -78,14 +78,14 @@ You've been provided full access to the network and are getting ping responses f
  
    - Run the command to search for the Icecast module:
      
-     > Answer:
+     > Answer: search icecast
  
 
    - Run the command to use the Icecast module:
 
        **Note:** Instead of copying the entire path to the module, you can use the number in front of it.
 
-     > Answer: 
+     > Answer: use 0
  
  
 5. Set the `RHOST` to the target machine.
