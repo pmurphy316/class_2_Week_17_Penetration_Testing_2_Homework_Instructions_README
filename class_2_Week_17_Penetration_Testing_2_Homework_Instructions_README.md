@@ -133,7 +133,7 @@ A. Run a Meterpreter post script that enumerates all logged on users.
      
 B. Open a Meterpreter shell and gather system information for the target.
  
-  > Answer: 
+  > Answer: getsystem
  
 C. Run the command that displays the target's computer system information:
 
