@@ -8,6 +8,7 @@ In this activity, you will play the role of an independent penetration tester hi
 
 - The deliverable for this engagement will be in the form of a report labeled `Report.docx`.
 
+---
 #### Setup 
 
 - Before you begin, we'll need to start the Icecast server to emulate the CEO's computer. 
