@@ -8,7 +8,6 @@ In this activity, you will play the role of an independent penetration tester hi
 
 - The deliverable for this engagement will be in the form of a report labeled `Report.docx`.
 
----
 #### Setup 
 
 - Before you begin, we'll need to start the Icecast server to emulate the CEO's computer. 
@@ -144,4 +143,71 @@ C. Run the command that displays the target's computer system information:
 
 ---
 
-&copy; 2020 Trilogy Education Services, a 2U Inc Brand.   All Rights Reserved.
+GoodSecurity Penetration Test Report 
+
+PETERMURPHY@GoodSecurity.com
+
+February 6, 2021
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+1.0	High-Level Summary
+
+GoodSecurity was tasked with performing an internal penetration test on GoodCorp’s CEO, Hans Gruber. An internal penetration test is a dedicated attack against internally connected systems. The focus of this test is to perform attacks, similar to those of a hacker and attempt to infiltrate Hans’ computer and determine if it is at risk. GoodSecurity’s overall objective was to exploit any vulnerable software and find the secret recipe file on Hans’ computer, while reporting the findings back to GoodCorp.
+When performing the internal penetration test, there were several alarming vulnerabilities that were
+identified on Hans’ desktop. When performing the attacks, GoodSecurity was able to gain access to his machine and find the secret recipe file by exploit two programs that had major vulnerabilities. The details of the attack can be found in the ‘Findings’ category.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.0	Findings
+
+Machine IP: 192.168.0.200
+Hostname: MSEDGEWIN10
+Vulnerability Exploited: buffer overflow
+Vulnerability Explanation:
+In information security and programming, a buffer overflow, or buffer overrun, is an anomaly where a program, while writing data to a buffer, overruns the buffer's boundary and overwrites adjacent memory locations.
+Buffers are areas of memory set aside to hold data, often while moving it from one section of a program to another, or between programs. Buffer overflows can often be triggered by malformed inputs; if one assumes all inputs will be smaller than a certain size and the buffer is created to be that size, then an anomalous transaction that produces more data could cause it to write past the end of the buffer. If this overwrites adjacent data or executable code, this may result in erratic program behavior, including memory access errors, incorrect results, and crashes.
+Exploiting the behavior of a buffer overflow is a well-known security exploit. On many systems, the memory layout of a program, or the system, is well defined. By sending in data designed to cause a buffer overflow, it is possible to write into areas known to hold executable code and replace it with malicious code, or to selectively overwrite data pertaining to the program's state, therefore causing behavior that was not intended by the original programmer. Buffers are widespread in operating system (OS) code, so it is possible to make attacks that perform privilege escalation and gain unlimited access to the computer's resources. The famed Morris worm in 1988 used this as one of its attack techniques.
+Severity:
+Buffer overflows typically have a high severity ranking because they can lead to unauthorized code execution in cases where attackers can control the overwritten memory space outside the targeted buffer and can redirect a function pointer to their malicious code.
+Proof of Concept:
+
+
+
+
+
+
+
+
+
+3.0	Recommendations
+
+What recommendations would you give to GoodCorp?
